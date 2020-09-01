@@ -35,8 +35,20 @@ int main()
         if (calcOperationChoice == 5) {
             double numPower = pow(num1, num2);
             printf("Number one to the power of number two = %f\n", numPower);
+        if (calcOperationChoice == 5) {
+            int numChoiceRoot;
+            printf("Would you like to use num1 or num2 for the square root? ");
+            scanf("%f", numChoiceRoot);
+            if (numChoiceRoot == 1) {
+                double num1Root = sqrt(num1);
+                printf("%s", num1Root);
+            }
+            if (numChoiceRoot == 2) {
+                double num2Root = sqrt(num2);
+                printf("%s", num2Root);
+            }
         }
-        if (calcOperationChoice >= 6) {
+        if (calcOperationChoice >= 7) {
             printf("You have not selected a given option.");
             return 0;
         }
