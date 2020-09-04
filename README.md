@@ -1,1 +1,2 @@
 # C_Testing
+This is one of my first C projects, my first github C project, and my first official github repo. I have coded this to be a console application and uses soley numbers for everything. The Map.md is the map of all the calculations. This needs a compiler to run, and would like to know how to make it downloadable and able to be opened without downloading a compiler and a runner. If you know how, please just bring it up as an issue, or if you can code it in, please make a pul request with everything in it. Thanks.
